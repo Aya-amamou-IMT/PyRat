@@ -1,0 +1,4 @@
+Le code final nommée greedyfinal est un algorithme qui:
+- à chaque turn trouve le fromage le plus proche grâce à dijstraeachturn qui s'arrête dès qu'il trouve un fromage proche et le renvoie comme cible.
+- Cependant si ce fromage n'est pas assez proche ( dans un rayon de 5 case) alors il calcul la densité avec les modules dans greedy_avec_densite. On a density qui revoie la densité d'un fromage et give_densité qui renvoie une liste avec la densite de chacun des fromages. Ensuite il se dirige vers le fromage avec un maximum de densité.
+- Dans le cas où il n'y a pas de fromages avec une densité significative par rapport aux autres, l'algorithme va juste au fromage le plus proche.
